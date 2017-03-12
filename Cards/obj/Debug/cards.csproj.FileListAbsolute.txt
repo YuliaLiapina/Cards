@@ -1,0 +1,6 @@
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\cards\bin\Debug\cards.exe.config
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\cards\obj\Debug\cards.csprojResolveAssemblyReference.cache
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\cards\bin\Debug\cards.exe
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\cards\bin\Debug\cards.pdb
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\cards\obj\Debug\cards.exe
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\cards\obj\Debug\cards.pdb

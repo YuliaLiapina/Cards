@@ -1,0 +1,8 @@
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\CardsTests\bin\Debug\CardsTests.dll
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\CardsTests\bin\Debug\CardsTests.pdb
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\CardsTests\bin\Debug\cards.exe
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\CardsTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\CardsTests\bin\Debug\cards.pdb
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\CardsTests\obj\Debug\CardsTests.csprojResolveAssemblyReference.cache
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\CardsTests\obj\Debug\CardsTests.dll
+C:\Users\asantaballa\OneDrive\Al\Devel\cards\CardsTests\obj\Debug\CardsTests.pdb

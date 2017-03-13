@@ -32,7 +32,7 @@ namespace Cards.Objects
 
         public void Shuffle()
         {
-            int seed = (int)(DateTime.Now.Ticks % 100000L);
+            int seed = (int)(DateTime.Now.Ticks % (long)int.MaxValue);
             var randomGenerator = new Random(seed);
 
             for (int i = 0; i <= Cards.Length - 1; i++)
@@ -44,6 +44,9 @@ namespace Cards.Objects
    
         public void Sort()
         {
+            // Since this is a special case where we technically know the postion of 
+            // each card beforehand, just go through the deck once swapping the card 
+            // into its final destination.
             for (int toIndex = 0; toIndex <= Cards.Length - 1; toIndex++)
             {
                 int fromIndex = GetIndexByKey(toIndex + 1,toIndex, Cards.Length - 1);
@@ -54,6 +57,10 @@ namespace Cards.Objects
 
         public void Sort2()
         {
+            // Alternate approach.
+            //   Realistically would proabbly have used a simple C# sort for the sort.
+            //   Believe complsexity avergages n log n, size is bounded to 52, and is
+            //   much more readable
             Cards = Cards.OrderBy(c => c.KeyBySuit).ToArray();
         }
 
@@ -74,6 +81,7 @@ namespace Cards.Objects
 
         public int GetIndexByKey(int key, int startIndex, int endIndex)
         {
+            // Detemines postion of card within deck by its suit/face key
             for (int i = startIndex; i <= endIndex; i++)
             {
                 if (Cards[i].KeyBySuit == key)

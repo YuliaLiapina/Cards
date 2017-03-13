@@ -49,7 +49,14 @@ namespace Cards.Objects.Tests
         {
             // Note: Technically this test could fail. The shuffling is a randon process
             //       and it is possible that a shuffle could even wind up with the cards
-            //       in order.
+            //       all in order.
+
+            // TODO: Based on above, and on the fact that we are just checking indivdual
+            //       card positions, would be good to figure how to beef up this test to
+            //       better determine randomnsess of shuffle result. Maybe do multiple 
+            //       cycles and say that at most one cycle can fail by having more than n
+            //       cards in the same spot. Also maybe check for subsequences in the list
+            //       of cards which are the same.
 
             var deck = new Deck();
             var prevDeck = new Deck();
